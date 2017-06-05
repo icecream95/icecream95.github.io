@@ -1,6 +1,6 @@
 ## What I'm working on
 
-Currently, I'm working on just zxtk, a ZX Spectrum emulator. I'm no-where near finished, but check it out at [https://github.com/icecream95/zxtk](https://github.com/icecream95/zxtk).
+Currently, I'm working on just zxtk, a ZX Spectrum emulator. I'm no-where near finished, but check it out at [github.com/icecream95/zxtk](https://github.com/icecream95/zxtk).
 
 Builds will appear here when it gets closer to being finished and Travis CL works properly
 
