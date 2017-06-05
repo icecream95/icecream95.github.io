@@ -1,6 +1,6 @@
 ## What I'm working on
 
-Currently, I'm working on just zxtk, a ZX Spectrum emulator. I'm no-where near finished, but check it out at [https://github.com/icecream95/zxtk](https://github.com/icecream95/zxtk)
+Currently, I'm working on just zxtk, a ZX Spectrum emulator. I'm no-where near finished, but check it out at [https://github.com/icecream95/zxtk](https://github.com/icecream95/zxtk).
 
 Builds will appear here when it gets closer to being finished and Travis CL works properly
 
@@ -8,4 +8,4 @@ I'm also working on a C++ to Scratch ([scratch.mit.edu](https://scratch.mit.edu)
 
 ## My other accounts
 
-I have a scratch account, so look at my projects [here](https://scratch.mit.edu/users/Icecream95/)
+I have a scratch account, so look at my projects [here](https://scratch.mit.edu/users/Icecream95/).
