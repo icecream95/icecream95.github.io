@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+## What I'm working on
 
-You can use the [editor on GitHub](https://github.com/icecream95/icecream95.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Currently, I'm working on just zxtk, a ZX Spectrum emulator. I'm no-where near finished, but check it out at https://github.com/icecream95/zxtk
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Builds will appear here when it gets closer to being finished and Travis CL works properly
 
-### Markdown
+I'm also working on a C++ to Scratch (https://scratch.mit.edu) compiler but it's still in the design stages so don't expect anything for a while.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## My other accounts
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/icecream95/icecream95.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+I have a scratch account, so look at my projects at https://scratch.mit.edu/users/Icecream95/
