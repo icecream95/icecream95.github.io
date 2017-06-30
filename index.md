@@ -19,4 +19,4 @@ anything for a while.
 I have a scratch account, so look at my projects [here](https://scratch.mit.edu/users/Icecream95/).
 
 I also have a Gitlab account [https://gitlab.com/icecream95](https://gitlab.com/icecream95) but I only use it for contributing 
-to Gitlab projects.
+to projects on Gitlab.
