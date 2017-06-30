@@ -4,15 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This is the website of [icecream95](https://github.com/icecream95), and programmer with an [ARM 
+Chromebook](https://www.asus.com/Laptops/ASUS_Chromebook_C201/) who dual-boots [Arch Linux ARM](https://archlinuxarm.org/).
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+He knows a few languages, including C++, JavaScript, C, bash, Scratch, HTML, CSS, a bit of Python, ZX Spectrum BASIC, z80 m/c, batch, CMake, Markdown, and, obviously, English.
 
 
-[jekyll-organization]: https://github.com/jekyll
