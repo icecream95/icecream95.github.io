@@ -14,7 +14,7 @@ I'm also working on zxtk, a ZX Spectrum emulator. I'm nowhere near finished, but
 
 No builds will appear here as this emulator is designed to be modded, and until zxtk supports some form of interpereted scripting, I see no point in providing executables.
 
-*(Note, if you really are that desperate, look at the zxtk-linux-\* branch of [this website](github.com/icecream95/icecream95.github.io) on github or [https://ci.appveyor.com/project/icecream95/zxtk/build/artifacts](https://ci.appveyor.com/project/icecream95/zxtk/build/artifacts). These executables are untested and probably won't work anyway)*
+*(Note, if you really are that desperate, look at the zxtk-linux-\* branch of [this website](https://github.com/icecream95/icecream95.github.io) on github or [https://ci.appveyor.com/project/icecream95/zxtk/build/artifacts](https://ci.appveyor.com/project/icecream95/zxtk/build/artifacts). These executables are untested and probably won't work anyway)*
 
 ## My other accounts
 
