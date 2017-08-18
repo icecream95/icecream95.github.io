@@ -65,14 +65,21 @@ fake constants:
 
 using namespace std;
 
+struct No_copy
+{
+    No_copy(No_copy&) = delete;
+    No_copy() = default;
+};
+
 class Fake_const_ex
 {
 public:
     Fake_const_ex() {}
     Fake_const_ex& add(int i) {length.l += i;return *this;}
-    struct
+    struct : No_copy
     {
         operator int() {return l;}
+        const int* operator& () {return &l;}
     private:
         friend class Fake_const_ex;
         int l {0};
@@ -87,15 +94,18 @@ int main()
     cout << ex.length << ' ';
     cout << ex.add(15).length << ' ';
 
-    auto t = ex.length;
-    // t += 2; // oops! This is an error!
-    cout << t << '\n';
+    int t = ex.length;  // Unfortunatly, auto doesn't work. Any ideas?
+    t += 2;
+    cout << t << ' ';
+    
+    const int* p = &ex.length;
+    ex.add(5);
+    cout << *p << '\n';
 }
 {% endhighlight %}
 
 The only problem with this technique is that, as you can see, creating an auto
-variable from the fake constant is not an int, which might be a problem in some
-cases.
+variable from the fake constant gives an error, so you need to explicitly use int.
 
 Also, this can be used to control writes to an object:
 
