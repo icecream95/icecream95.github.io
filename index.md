@@ -20,5 +20,4 @@ No builds will appear here as this emulator is designed to be modded, and until 
 
 I have a scratch account, so look at my projects [here](https://scratch.mit.edu/users/Icecream95/).
 
-I also have a Gitlab account [https://gitlab.com/icecream95](https://gitlab.com/icecream95) but I only use it for contributing 
-to projects on Gitlab.
+I also have a Gitlab account ([https://gitlab.com/icecream95](https://gitlab.com/icecream95)) but I mainly use it for contributing to projects on Gitlab. Maybe, when they stop using azure...
