@@ -83,22 +83,22 @@ public:
     private:
         friend class Fake_const_ex;
         int l {0};
-    } length;
+    } size;
 };
 
 int main()
 {
     Fake_const_ex ex; 
-    cout << ex.length << ' ';
+    cout << ex.size << ' ';
     ex.add(10);
-    cout << ex.length << ' ';
-    cout << ex.add(15).length << ' ';
+    cout << ex.size << ' ';
+    cout << ex.add(15).size << ' ';
 
-    int t = ex.length;  // Unfortunately, auto doesn't work. Any ideas?
+    int t = ex.size;  // Unfortunately, auto doesn't work. Any ideas?
     t += 2;
     cout << t << ' ';
     
-    const int* p = &ex.length;
+    const int* p = &ex.size;
     ex.add(5);
     cout << *p << '\n';
 }
@@ -138,13 +138,18 @@ int main()
     c = 0; cout << c << ' ';
     c2 = 2; cout << c2 << ' ';
     c2 = 0; cout << c2 << ' ';
-    try
-    {c = 50;}
-    catch (...)
-    {cout << "oops!";}
-    try{c2 = -1;}
-    catch (...)
-    {cout << "oops!";}
+    try {
+        c = 50;
+    }
+    catch (...) {
+        cout << "oops!";
+    }
+    try{
+        c2 = -1;
+    }
+    catch (...) {
+        cout << "oops!";
+    }
 }
 {% endhighlight %}
 
