@@ -6,7 +6,7 @@ title: C++ Fake Constants
 One thing I never like is the need to append a pair of brackets to so many
 things in the C++ world.
 
-I have had enough of having to write `vec.length()`. Those brackets irritate me,
+I have had enough of having to write `vec.size()`. Those brackets irritate me,
 especially for short names.
 
 So I looked at the idea of fake constants. These are variables that can be
@@ -51,11 +51,11 @@ int main()
 
 I get this result:
 
-```1 2 4 4
-1 2 4 4```
+    1 2 4 4
+    1 2 4 4
 
-(you might get something else, but the last four numbers will always equal the
-first four)
+You might get something else as a result, but the last four numbers will always equal the
+first four.
 
 Now we have this working, let's look at a simple example of our original topic,
 fake constants:
@@ -94,7 +94,7 @@ int main()
     cout << ex.length << ' ';
     cout << ex.add(15).length << ' ';
 
-    int t = ex.length;  // Unfortunatly, auto doesn't work. Any ideas?
+    int t = ex.length;  // Unfortunately, auto doesn't work. Any ideas?
     t += 2;
     cout << t << ' ';
     
